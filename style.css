@@ -1,0 +1,9 @@
+body { height: 100vh; display: flex; align-items: center; flex-direction: column; }
+#calculator { margin: 5vh auto; padding: 2em; box-shadow: 0 0 1em #666;
+    border-radius: .5em; background: #eee }
+button {
+        border: 0; outline: none; background: #CCC; width: 3em; height: 3em;
+        margin: .5em .3em; border-radius: .5em; box-shadow: 3px 3px #666; font-size: 1.1rem;}
+button:active { box-shadow: 2px 2px rgb(228, 14, 14); color: red;}
+#display { width: 13.8em;  margin: .2em .3em; padding: 1em; outline: none; 
+    border-radius: .5em; border: 1px solid #666; text-align: right; font-size: 1rem;}
